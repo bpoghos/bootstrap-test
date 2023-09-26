@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Gochi+Hand&family=Montserrat:wght@300;400;600&family=Raleway&family=Roboto&display=swap');
+
+html,body{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    padding: 5px 100px;
+}
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.btn{
+    font-size: 14px;
+    padding: 10px 22px;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 100px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(104, 104, 104);
+}
+.btn-center{
+    text-align: center;
+}
+.btn-center .btn{
+    padding: 10px 45px;
+}
+.cards-div{
+    width: 100%;
+    display: flex;
+}
+.row{
+    padding: 50px 200px; 
+}
+.card{
+    padding: 50px 10px;
+    box-shadow: -1px 1px 15px -4px rgba(34, 60, 80, 0.2);
+}
+.fa-solid{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
